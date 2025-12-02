@@ -38,6 +38,6 @@
 
 <div align="center">
   <a href="https://solved.ac/thd2410">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=본인백준아이디" width="100%" alt="solved.ac badge"/>
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=thd2410" width="100%" alt="solved.ac badge"/>
   </a>
 </div>
