@@ -1,0 +1,17 @@
+# ARCHITECTURE
+
+## 시스템 개요
+- Agentic 개발을 위한 레포 운영 구조
+- 핵심 축: 문서 맵, worktree 격리, 표준 검증 루프
+
+## 디렉터리 원칙
+- `docs/exec-plans/active`: 진행 중 작업 계획
+- `docs/exec-plans/completed`: 완료된 실행 계획
+- `docs/generated`: 자동 생성 산출물(스키마/엔드포인트/인벤토리)
+- `scripts/verify`: 반복 가능한 검증 자동화
+- `scripts/obs`: 로그/헬스 관측 자동화
+
+## 변경 원칙
+- 설계 변경 시 `docs/design-docs`에 기록
+- 제품 요구 변경 시 `docs/product-specs`에 기록
+- 운영 규칙 변경 시 `AGENTS.md` 맵 갱신
