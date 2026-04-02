@@ -1,0 +1,32 @@
+# AGENTS.md (Map)
+
+이 파일은 상세 매뉴얼이 아니라 **탐색 맵**입니다. 길이는 약 100줄 내로 유지합니다.
+
+## 목표
+- Codex가 작은 단위 작업을 안전하게 반복하도록 돕는다.
+- 모든 변경은 plan → implement → review → verify → pr-ready 루프를 따른다.
+
+## 우선 읽기 순서
+1. `ARCHITECTURE.md`
+2. `docs/product-specs/`
+3. `docs/design-docs/`
+4. `docs/exec-plans/active/`
+5. 필요한 경우 `docs/references/`
+
+## 작업 규칙
+- one task = one worktree
+- 실행 결과는 `artifacts/` 아래에 남긴다.
+- 실패 로그는 삭제하지 않고 원인 요약을 남긴다.
+- 대규모 변경 전에 `docs/exec-plans/active/`에 계획 문서를 생성한다.
+
+## 산출물 규칙
+- 테스트 결과: `artifacts/test-report.xml`
+- 앱 상태: `artifacts/health.json`
+- 스크린샷: `artifacts/screenshots/`
+- 로그: `logs/latest.log`
+
+## PR 준비 체크
+- 변경 이유/범위 요약
+- 리스크 및 롤백 방법
+- 검증 명령과 결과
+- 후속 작업(있다면)
