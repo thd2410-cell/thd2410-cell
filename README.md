@@ -27,11 +27,6 @@
 
 ### ⚡ GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thd2410-cell&show_icons=true&theme=gotham&bg_color=151515&hide_border=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thd2410-cell&layout=compact&theme=gotham&bg_color=151515&hide_border=true" height="150" alt="languages graph" />
-</div>
-
 <br>
 
 <div align="center">
